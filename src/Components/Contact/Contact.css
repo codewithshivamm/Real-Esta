@@ -66,14 +66,24 @@
 }
 
 
-@media (max-width:400px) {
-    .contactModes .row{
-        flex-direction: column;
+
+@media (max-width: 1024px) {
+
+    .contactModes {
+        width: 100%;
     }
 
-    .modes{
-        width: 20rem;
-        margin-left: 3px;
+    .row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mode {
+        width: 100%;
+    }
+
+    .c-right{
+        justify-content: center;
     }
 }
 

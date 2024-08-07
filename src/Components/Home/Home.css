@@ -81,13 +81,46 @@
 }
 
 
-@media (max-width:400px) {
-    .image-container{
-        width: 21rem;
-        height: 23rem;
-        overflow: hidden;
-        border-radius: 15rem 15rem 0 0;
-        border: 8px solid rgba(255, 255, 255, 0.12);
+@media (max-width: 640px) {
+    .hero-container {
+        margin-top: 2rem;
     }
-    
+
+    .hero-title>h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .stats {
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .image-container {
+        width: 95%;
+        height: 25rem;
+    }
+
+    .search-bar{
+        gap: 0.3rem;
+        position: relative;
+    }
+
+    .search-bar>input{
+        width: 93%;
+        height: 43px;
+        margin-left: 20px;
+    }
+
+    .search-bar .button{
+    width: 100%;
+    padding: 0.8rem;
+    }
+
+    .search-bar svg{
+    position: absolute;
+    left: 0.6rem;
+    bottom: 4.2rem;
+    }
 }
